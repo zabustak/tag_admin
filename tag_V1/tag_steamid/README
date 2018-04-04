@@ -16,7 +16,7 @@ ModoDebug = false -- Activate debug mode, for nerds hehe
 
 
 -------------------------------------------------------------------------------------------
-| -- CONFIG ESX PREMISSIONS -- |
+| -- CONFIG STEAMID/LICENSE (LEGACY) PREMISSIONS -- |
 
 1. Drag the resource "tag_steamid" to your server resource folder.
 
