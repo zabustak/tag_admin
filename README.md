@@ -1,2 +1,5 @@
 # tag_admin
-Tag only for admin script, for FiveM
+FiveM
+Tag for Admin V1.0 | Over-The-Head 
+Created by: Cheleber 
+Contact me: https://discord.gg/HjrRg8N 
