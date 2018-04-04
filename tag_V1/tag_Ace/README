@@ -4,6 +4,8 @@
 | Detailed Help: https://discord.gg/HjrRg8N
 | Original Topic: https://forum.fivem.net/t/release-tag-for-admin-v1-0-v2-0-over-the-head/96027
 
+
+-----------------------------------------------------------------------------------------------------------------------
 | -- GENERAL CONFIG -- |
 This script comes with a “config.lua” that you have to change or not, depending on your tastes!
 
@@ -13,6 +15,8 @@ displayTAGHeight = 1.1 -- Height of the TAG above admin head (starts at center b
 SeeSelfTag = false -- Do you want ADMINS to see their tags in their heads? True = Yes See | False = No dont see
 ModoDebug = false -- Activate debug mode, for nerds hehe
 
+
+-----------------------------------------------------------------------------------------------------------------------
 | -- CONFIG ACE PREMISSIONS -- |
 1. Drag the resource "tag_Ace" to your server resource folder.
 
