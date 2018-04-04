@@ -6,12 +6,25 @@
 
 | -- GENERAL CONFIG -- |
 This script comes with a “config.lua” that you have to change or not, depending on your tastes!
-```
+
 ignorePlayerNameDistance = true -- No  distance limit or with limit? ! True = No limits | False = Limit it!
 playerNamesDist = 15 -- If ignorePlayerNameDistance = true , what is the max distance? | Big values = big distance
 displayTAGHeight = 1.1 -- Height of the TAG above admin head (starts at center body mas) ! Upper values = high height
 SeeSelfTag = false -- Do you want ADMINS to see their tags in their heads? True = Yes See | False = No dont see
 ModoDebug = false -- Activate debug mode, for nerds hehe
-``` 
-| -- CONFIG ACE PREMISSIONS -- |
 
+| -- CONFIG ACE PREMISSIONS -- |
+1. Drag the resource "tag_Ace" to your server resource folder.
+
+2. Add this line to your server.cfg file: "start tag_Ace"
+
+3. Add your Admins steamid or license to you server "server.cfg":
+
+add_ace group.admin cheleber allow	                 # allow tag for admins
+add_ace group.moderator cheleber allow 			 # allow tag for moderators
+add_ace group.moderator cheleber.tag deny		 # disallowt tag moderators
+add_principal identifier.steam:110000112345678 group.admin # Add this identifier to the admin group
+
+Or see this topic to now more about ace premissions: https://forum.fivem.net/t/basic-aces-principals-overview-guide/90917
+
+4. Start your server!
