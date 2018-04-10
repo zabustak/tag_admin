@@ -48,7 +48,7 @@ Citizen.CreateThread(function ()
                 if(ignorePlayerNameDistance) then
 					for i,l in ipairs(stringsplit(TagAdmin1, "\n")) do
 			            for i = 1, #l do
-						    if string.sub(l,i,i) == tostring(GetPlayerServerId(id)) then
+						    if l == tostring(GetPlayerServerId(id)) then
 		                        DrawText3DTag(x2, y2, z2 + displayTAGHeight, "ADMIN")
 							end
 						end
@@ -59,7 +59,7 @@ Citizen.CreateThread(function ()
                     if not (ignorePlayerNameDistance) then
 					    for i,l in ipairs(stringsplit(TagAdmin1, "\n")) do
 			                for i = 1, #l do
-						        if string.sub(l,i,i) == tostring(GetPlayerServerId(id)) then
+						        if l == tostring(GetPlayerServerId(id)) then
 		                            DrawText3DTag(x2, y2, z2 + displayTAGHeight, "ADMIN")
 							    end
 						    end
@@ -78,7 +78,7 @@ Citizen.CreateThread(function ()
                 if(ignorePlayerNameDistance) then
 					for i,l in ipairs(stringsplit(TagAdmin1, "\n")) do
 			            for i = 1, #l do
-						    if string.sub(l,i,i) == tostring(GetPlayerServerId(id)) then
+						    if l == tostring(GetPlayerServerId(id)) then
 		                        DrawText3DTag(x2, y2, z2 + displayTAGHeight, "ADMIN")
 							end
 						end
@@ -89,7 +89,7 @@ Citizen.CreateThread(function ()
                     if not (ignorePlayerNameDistance) then
 					    for i,l in ipairs(stringsplit(TagAdmin, "\n")) do
 			                for i = 1, #l do
-						        if string.sub(l,i,i) == tostring(GetPlayerServerId(id)) then
+						        if l == tostring(GetPlayerServerId(id)) then
 		                            DrawText3DTag(x2, y2, z2 + displayTAGHeight, "ADMIN")
 							    end
 						    end
